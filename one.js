@@ -54,21 +54,71 @@
 // console.log(q);
 
 // const w = 1
-// console.log(w);
+// // console.log(w);
 
- let a=10
- let b = 5
-// console.log(a + b);
-// console.log(a - b);
-// console.log(a * b);
-// console.log(a / b);
-// console.log(a += b);
-// console.log(a == b);
-// console.log(a > b);
-// console.log(a -= b);
-// console.log(a % b);
-// console.log(a === "b");
+//  let a=10
+//  let b = 5
+// // console.log(a + b);
+// // console.log(a - b);
+// // console.log(a * b);
+// // console.log(a / b);
+// // console.log(a += b);
+// // console.log(a == b);
+// // console.log(a > b);
+// // console.log(a -= b);
+// // console.log(a % b);
+// // console.log(a === "b");
 
-console.log(a + true);
-console.log(b + "");
-console.log(b + "F");
+// console.log(a + true);
+// console.log(b + "");
+// console.log(b + "F");
+
+// let c = 10
+
+// switch (c) {
+//     case c:"ok"
+       
+        
+//         break;
+
+//     default: ("okk");
+//         break;
+// }
+// console.log(c);
+
+let day = 3; 
+let activity;
+
+switch (day) {
+
+    case 1:
+        console.log("Sunday");
+        break;
+
+    case 2:
+        console.log("Monday");
+        break;
+
+    case 3:
+        console.log("Tuesday");
+        break;
+
+    case 4:
+        console.log("Wednesday");
+        break;
+
+    case 5:
+        console.log("Thursday");
+        break;
+
+    case 6:
+        console.log("Friday");
+        break;
+
+    case 7:
+        console.log("Saturday");
+        break;
+
+    default:
+        console.log("Invalid Day");
+}
